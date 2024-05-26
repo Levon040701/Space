@@ -1,0 +1,35 @@
+.slidesContainer {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.sliderItem {
+    width: 100%;
+    background-color: #103162;
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sliderImage {
+    width: 40%;
+    overflow: hidden;
+}
+
+.sliderItem img {
+    height: 500px;
+}
+
+.sliderItem .textBox {
+    width: 60%;
+    padding: 10px 30px;
+    z-index: 5;
+}
+
+.sliderItem .title {
+    font-size: 1.5em;
+}
+

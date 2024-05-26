@@ -1,0 +1,26 @@
+.info {
+    width: 40%;
+    padding: 20px 50px;
+    background-color: #103162;
+    color: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 50px;
+}
+  
+.info img {
+    width: 20%;
+    border: 2px solid #ccc;
+}
+  
+.shortInfo td {
+    padding: 5px 10px;
+}
+  
+.shortInfo td:first-child {
+    font-weight: 700;
+}
+  
+  

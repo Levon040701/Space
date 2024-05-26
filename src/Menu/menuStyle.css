@@ -1,0 +1,32 @@
+.leftMenu {
+    width: 30%;
+    padding: 20px;
+    background-image: linear-gradient(to left, #103162 0%, #20022c 100%);
+}
+  
+.leftMenu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+  
+.menuItem {
+    border: 2px solid #ccc;
+    background-color: transparent;
+    color: #ccc;
+    text-align: center;
+}
+  
+.menuItem:hover {
+    border-color: white;
+    color: white;
+}
+  
+.menuItem a {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    display: block;
+}
+  
+  
